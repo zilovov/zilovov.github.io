@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>git</title>
+      <link href="/2023/03/08/git/"/>
+      <url>/2023/03/08/git/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git-Notes"><a href="#Git-Notes" class="headerlink" title="Git Notes"></a>Git Notes</h1><h3 id="安装Git-for-ubuntu"><a href="#安装Git-for-ubuntu" class="headerlink" title="安装Git for ubuntu"></a>安装Git for ubuntu</h3><p><a href="https://cloud.tencent.com/developer/article/1590046">安装git</a></p><ol><li><p><a href="https://www.runoob.com/git/git-install-setup.html">安装依赖</a></p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext zlib1g zlib1g-dev libssl-dev</span><br></pre></td></tr></table></figure><p> <a href="https://blog.csdn.net/yuhengyue/article/details/78131758">zlib1g</a></p></li><li><p>编译安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=</span><br><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure></li></ol><h3 id="Git-配置"><a href="#Git-配置" class="headerlink" title="Git 配置"></a>Git 配置</h3><ul><li><p><a href="https://www.cnblogs.com/merray/p/6006411.html">查看Git配置信息</a></p></li><li><p><a href="https://www.runoob.com/git/git-install-setup.html">配置用户文件</a></p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;runoob&quot;</span></span><br><span class="line">git config --global user.email <span class="built_in">test</span>@ruboob.com</span><br></pre></td></tr></table></figure></li><li><p><a href="https://www.w3schools.com/git/git_branch.asp?remote=github">Git 命令</a></p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 初始化</span></span><br><span class="line">git init</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看状态</span></span><br><span class="line">git status</span><br><span class="line"></span><br><span class="line"><span class="comment"># track files</span></span><br><span class="line">git add --all</span><br><span class="line">git add -A</span><br><span class="line"></span><br><span class="line"><span class="comment"># 提交修改</span></span><br><span class="line">git commit -m <span class="string">&quot;message&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Git commit log 日志</span></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 新建分支</span></span><br><span class="line">git branch hello-world-images</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看有哪些分支</span></span><br><span class="line">git branch</span><br><span class="line"></span><br><span class="line"><span class="comment"># 切换到hello-world-images分支</span></span><br><span class="line">git checkout hello-world-images</span><br><span class="line"></span><br><span class="line"><span class="comment"># merge the current branch (master) with emergency-fix</span></span><br><span class="line">git merge emergency-fix</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除emergency-fix分支</span></span><br><span class="line">git branch -d emergency-fix</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> ggggitttt </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/2023/03/05/test/"/>
+      <url>/2023/03/05/test/</url>
+      
+        <content type="html"><![CDATA[<details class="toggle" ><summary class="toggle-button" style="">点击以打开</summary><div class="toggle-content"><p>内容</p></div></details><div class="tabs" id="样例"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#样例-1">代码</button></li><li class="tab"><button type="button" data-href="#样例-2">预览</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="样例-1"><p>这里是代码</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="样例-2"><p>这里是预览</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2022</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>01-02</p></div></div><div class='timeline-item-content'><p>这是测试页面</p></div></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> good </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nice </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/03/05/hello-world/"/>
+      <url>/2023/03/05/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
